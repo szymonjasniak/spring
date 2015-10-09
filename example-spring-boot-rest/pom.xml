@@ -48,6 +48,18 @@
             <artifactId>hsqldb</artifactId>
             <scope>runtime</scope>
         </dependency>
+        <!-- Flyaway -->
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+        <!-- Oracle -->
+        <dependency>
+    		<groupId>com.oracle</groupId>
+    		<artifactId>ojdbc6</artifactId>
+    		<version>11.2.0.3</version>
+		</dependency>
         <!-- Guava -->
         <dependency>
             <groupId>com.google.guava</groupId>
